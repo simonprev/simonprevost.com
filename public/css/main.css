@@ -1,0 +1,59 @@
+@import "reset.css";
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  height: 100%;
+  width: 100%;
+	background: url(../img/bg1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  color: #FFF;
+  text-shadow: 0 1px 2px #000;
+}
+img, #content {
+  float: left;
+}
+#content {
+  margin-left: 10px;
+}
+#content a {
+  text-decoration: none;
+  color: #FFF;
+}
+#content a.mirego:hover {
+  color: #ffae2e;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 0 5px 0;
+}
+span {
+  font-size: 12px;
+  opacity: 0.8;
+}
+span em.amp {
+  font-family: "Georgia";
+  font-style: italic;
+}
+
+#lets_get_social {
+  display: none;
+  visibility: hidden;
+  opactiy: 0;
+}
+.outer{height:100%;overflow:visible}
+.outer{height:100px;overflow:hidden;position:relative}
+.outer{width:100%}
+.outer[class]{display:table;position:static}
+.middle{position:absolute;top:40%}
+.middle[class]{display:table-cell;vertical-align:middle;width:100%}
+.middle{width:100%;text-align:center}
+.inner{position:relative;top:-50%;}
+.inner{width:300px;margin-left:auto;margin-right:auto;text-align:left}
